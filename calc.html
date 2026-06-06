@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <h1 class="name">NebulaCalc</h1>
+    <div class="Calculator">
+      <input type="text" class="display" readonly />
+      <div class="buttons">
+        <button class="operator" data-val="AC">AC</button>
+        <button class="operator" data-val="%">%</button>
+        <button class="operator" data-val="DEL">DEL</button>
+        <button class="operator" data-val="/">/</button>
+
+        <button data-val="7">7</button>
+        <button data-val="8">8</button>
+        <button data-val="9">9</button>
+        <button class="operator" data-val="*">x</button>
+
+        <button data-val="4">4</button>
+        <button data-val="5">5</button>
+        <button data-val="6">6</button>
+        <button class="operator" data-val="-">-</button>
+
+        <button data-val="1">1</button>
+        <button data-val="2">2</button>
+        <button data-val="3">3</button>
+        <button class="operator" data-val="+">+</button>
+
+        <button>0</button>
+        <button>.</button>
+        <button class="operator equal" data-val="=">=</button>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
